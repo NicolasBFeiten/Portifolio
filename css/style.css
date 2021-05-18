@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Helvetica;
+}
+body{
+    background-image: linear-gradient(to right, #ffc402,#ff9900,#ffc402);
+}
+header{
+    height:150px;
+    background-color:#ffffff;
+    float:left;
+    width:100%;
+}
+header div{
+    width:50%;
+    float:left;
+}
+#logo img{
+    height:160px;
+}
+#titulo{
+    padding-top:45px;
+    font-size:30px;
+    color:#ff5000
+}
+nav{
+   height:50px;
+   background-color:#ff7b00;
+   background-image: linear-gradient(to right, #ff5000, #ff9100, #ff5000);
+   float:left;
+   width:100%;
+   padding:20px 0 20px 0;
+}
+nav ul{
+    list-style:none;
+    margin-top:8px;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a{
+    font-size:28px;
+    text-decoration:none;
+    margin-left:40px;
+    color:#ffffff;
+    padding:28px;
+}
+nav ul li a:hover{
+    background-color:rgba(0, 0, 0, 0.418);
+}
+main{
+    float:left;
+    width:100%;
+}
+main div{
+    width:85%;
+    margin:0 auto;
+}
+.tipos{
+    width:100%;
+    float:left;
+    padding:15px 0 15px 0;
+    text-align: center;
+    font-size:20px;
+    color:#fff;
+}
+.bola{
+    width:30%;
+    float:left;
+    margin:10px;
+}
+.bola img{
+    width:100%;
+    border:1px solid #fff;
+    border-radius:30px;
+    box-shadow:7px 7px 25px #741500;
+}
+.bola img:hover{
+    transform: scale(1.1);
+}
+.volei{
+    width:30%;
+    float:left;
+    margin:10px;
+}
+.volei img{
+    width:100%;
+    border:1px solid #fff;
+    border-radius:30px;
+    box-shadow:7px 7px 25px #741500;
+}
+.volei img:hover{
+    transform: scale(1.1);
+}
+footer{
+    width:100%;
+    float:left;
+    padding:15px 0 15px 0;
+    background-image: linear-gradient(to right, #ff5000, #ff9100, #ff5000);
+}
+footer p{
+    text-align: center;
+    color:#fff;
+    font-size:30px;
+}
+
